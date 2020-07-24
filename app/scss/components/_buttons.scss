@@ -4,27 +4,27 @@
   line-height: $btn-lh;
   font-weight: $btn-fw;
   color: $btn-color;
-  border: 1px solid $transp;
+  border: 1px solid $blue;
   background-color: $btn-bgc;
   border-radius: $btn-radius;
-
-  box-shadow: 3px 5px 30px 4px #cbd6ee;
+  box-shadow: 3px 5px 30px 4px $blue;
   padding: 16px 14px;
   text-align: center;
 
+  letter-spacing: 0.02em;
   min-width: 100px;
   display: inline-block;
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
   text-decoration: none;
-  outline: none;
   appearance: none;
   background-origin: border-box;
   transition: 0.3s ease;
+  &:focus,
   &:hover {
+
   }
-  &:focus {}
 }
 
 button[disabled] {

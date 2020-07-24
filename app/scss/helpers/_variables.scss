@@ -3,9 +3,15 @@ $white: #fff;
 $black: #000;
 $gray: #ccc;
 $transp: transparent;
-
+// 400
+// 600
+// 800
+// 900
 // Custom colors...
-$text: #686868;
+$text: #323232;
+$blue: #3878f4;
+$catskill: #e6ecf3;
+$squeeze: #f4f7fb;
 
 // =====Typography base=====
 $main-font: 'Montserrat', Arial, sans-serif;
@@ -13,16 +19,16 @@ $sec-font: 'Arial', Open Sans, sans-serif;
 $font-weight: 400;
 $font-size: 16px;
 $line-height: 1.5;
-$txt-color: $black;
+$txt-color: $text;
 
 // =====Typography buttons=====
 $btn-ff: $main-font;
 $btn-fz: $font-size;
 $btn-lh: 20px;
-$btn-fw: $font-weight;
-$btn-color: $txt-color;
-$btn-bgc: $transp;
-$btn-radius: 0px;
+$btn-fw: 600;
+$btn-color: $white;
+$btn-bgc: $blue;
+$btn-radius: 6px;
 
 // =====Malihu scrollbar customs=====
 // $dragger_bar-color: #2c3e50;

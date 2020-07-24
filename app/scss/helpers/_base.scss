@@ -20,7 +20,7 @@
 }
 
 .container {
-	max-width: 1440px;
+	max-width: 1380px;
 	width: 100%;
 	padding: 0 10px;
 	margin: 0 auto;
@@ -49,33 +49,6 @@
 		opacity: 1;
 		visibility: visible;
 		pointer-events: auto;
-	}
-}
-
-// Slick styles
-.slick-arrow {
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: 0.2s ease;
-	&:hover {
-		background-color: $black;
-		> svg {
-			path {
-				fill: $white;
-			}
-		}
-	}
-	> svg {
-		transition: 0.3s ease-in-out;
-	}
-	&.next-arrow {
-		transform: rotate(180deg);
-		right: -40px;
-	}
-	&.prev-arrow {
-    left: -40px;
 	}
 }
 

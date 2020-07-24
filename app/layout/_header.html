@@ -1,14 +1,46 @@
 <header class="header">
-	<div class="header-holder">
-		<nav class="nav">
-      <ul>
-        <li><a href="#hero">Hero</a></li>
-        <li><a href="#scroll-tabs">Scroll & Tabs</a></li>
-        <li><a href="#default-slider">Default slider</a></li>
-        <li><a href="#modal">Modal</a></li>
-        <li><a href="#form-elements">Form elements</a></li>
-        <li><a href="">Others</a></li>
-      </ul>  
+	<div class="header__container">
+    <nav class="header__col">
+      <div class="burger">
+        <i class="burger__icon"></i>
+        <ul>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Блог</a></li>
+        </ul>
+      </div>
+      <div class="header-menu">
+        <ul>
+          <li>
+            <a href="#">О сервисе</a>
+          </li>
+          <li>
+            <a href="#">Купить</a>
+          </li>
+          <li>
+            <a href="#">Продать</a>
+          </li>
+          <li>
+            <a href="#">Правила</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-	</div>
+    <div class="header__col">
+      <a href="/" class="logo">
+        <img src="./img/logo.svg" alt="logo" width="116" height="30">
+      </a>
+    </div>
+    <div class="header__col">
+      <div class="header-widget">
+        <form action="#" class="form-search">
+          <label class="form-search__holder">
+            <input type="text" class="form-search__control">
+          </label>
+          <button class="form-search__btn"></button>
+        </form>
+        <a href="#" class="support"></a>
+      </div>
+    </div>
+  </div>
 </header>
