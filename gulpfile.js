@@ -17,7 +17,6 @@ const	gulp = require('gulp'),
 			ghPages = require('gulp-gh-pages');
 
 
-
 gulp.task('browser-sync', function() {
 	browserSync.init({
 		server: {
@@ -59,6 +58,7 @@ gulp.task('fonts', function() {
 	.pipe(gulp.dest('dist/fonts/'))
 	.pipe(browserSync.reload({stream: true}))
 });
+
 
 gulp.task('js', function() {
 	return gulp.src('app/js/main.js')

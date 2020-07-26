@@ -1,11 +1,59 @@
 .header {
-
+  background-color: red;
+  @media only screen and (min-width: 768px) {
+    background-color: #fff;
+  }
   &__container {
     max-width: 1700px;
     width: 100%;
     padding: 0 10px;
     margin: 0 auto;
+
+    @media only screen and (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   
-  &__col {}
+  &__col {
+
+  }
+}
+
+.header-menu {}
+
+.header-widget {}
+
+.burger {
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    background-color: $text;
+
+  }
+}
+
+.form-search {
+  &__holder {}
+
+  &__control {}
+
+  &__btn {}
+}
+
+.support {}
+
+.logo {
+  display: block;
+  &:after {
+    content: '';
+    position: absolute;
+    font-family: 'icons';
+    font-size: 24px;
+  }
 }
