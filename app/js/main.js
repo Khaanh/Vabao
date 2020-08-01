@@ -4,8 +4,7 @@ $(function() {
 	//= include/sliders
   //= include/forms
 
-  let a = $(window).innerWidth()
-  alert(a)
+ 
 });
 
 

@@ -12,23 +12,24 @@
   line-height: 28px;
   font-weight: 400;
   color: $txt-color;
-  height: 50px;
+  height: 46px;
   background-color: $white;
   border: 1px solid #e0e6ed;
-  border-radius: 5px;
-  text-align: center;
-  padding: 14px 20px;
+  border-radius: 3px;
+  text-align: left;
+  padding: 8px 24px;
+  border: 1px solid rgba(49, 91, 173, 0.35);
+
 
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  border: none;
   outline: none;
   resize: none;
   margin: 0;
   transition: 0.3s ease;
   &:focus {
-    border: 1px solid gold;
+    border: 1px solid $blue;
   }
 }
 *::-webkit-input-placeholder {
